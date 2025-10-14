@@ -216,7 +216,7 @@ class BiodataPage extends StatelessWidget {
   ) {
     return ElevatedButton.icon(
       onPressed: () {
-        _launchUrl(Uri.parse('https://nama-anda.github.io/portfolio'));
+        _launchUrl(Uri.parse('https://nandaseptaliansari.github.io/portfolio'));
       },
       icon: Icon(icon, color: Colors.white),
       label: Text(text, style: const TextStyle(color: Colors.white)),
