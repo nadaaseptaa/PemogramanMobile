@@ -14,8 +14,14 @@ class ActivityDetailPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Detail Aktivitas'),
+<<<<<<< HEAD
       ),
       body: Padding(
+=======
+        backgroundColor: Colors.blue,
+      ),
+      body: SingleChildScrollView(
+>>>>>>> 8987424fdda1b9758c58286a5ae76dfafaf4133d
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -24,6 +30,10 @@ class ActivityDetailPage extends StatelessWidget {
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(12),
               ),
+<<<<<<< HEAD
+=======
+              elevation: 3,
+>>>>>>> 8987424fdda1b9758c58286a5ae76dfafaf4133d
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Column(
@@ -40,7 +50,11 @@ class ActivityDetailPage extends StatelessWidget {
 
                     Row(
                       children: [
+<<<<<<< HEAD
                         const Icon(Icons.calendar_today),
+=======
+                        const Icon(Icons.calendar_today, size: 20),
+>>>>>>> 8987424fdda1b9758c58286a5ae76dfafaf4133d
                         const SizedBox(width: 8),
                         Text("Tanggal: ${activity.tanggal}"),
                       ],
@@ -50,7 +64,11 @@ class ActivityDetailPage extends StatelessWidget {
 
                     Row(
                       children: [
+<<<<<<< HEAD
                         const Icon(Icons.timer),
+=======
+                        const Icon(Icons.timer, size: 20),
+>>>>>>> 8987424fdda1b9758c58286a5ae76dfafaf4133d
                         const SizedBox(width: 8),
                         Text("Durasi: ${activity.durasi} menit"),
                       ],
@@ -60,9 +78,15 @@ class ActivityDetailPage extends StatelessWidget {
 
                     Row(
                       children: [
+<<<<<<< HEAD
                         const Icon(Icons.star),
                         const SizedBox(width: 8),
                         Text("Tingkat kesulitan: ${activity.kesulitan}/5"),
+=======
+                        const Icon(Icons.star, size: 20),
+                        const SizedBox(width: 8),
+                        Text("Kesulitan: ${activity.kesulitan}/5"),
+>>>>>>> 8987424fdda1b9758c58286a5ae76dfafaf4133d
                       ],
                     ),
 
@@ -70,8 +94,15 @@ class ActivityDetailPage extends StatelessWidget {
 
                     const Text(
                       "Deskripsi:",
+<<<<<<< HEAD
                       style:
                           TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+=======
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+>>>>>>> 8987424fdda1b9758c58286a5ae76dfafaf4133d
                     ),
                     const SizedBox(height: 6),
                     Text(

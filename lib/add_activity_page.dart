@@ -17,9 +17,15 @@ class _AddActivityPageState extends State<AddActivityPage> {
 
   void _save() {
     if (_nameController.text.isEmpty || _descController.text.isEmpty) {
+<<<<<<< HEAD
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Semua form wajib diisi')),
       );
+=======
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(const SnackBar(content: Text('Semua form wajib diisi')));
+>>>>>>> 8987424fdda1b9758c58286a5ae76dfafaf4133d
       return;
     }
 
@@ -86,10 +92,14 @@ class _AddActivityPageState extends State<AddActivityPage> {
 
             const SizedBox(height: 20),
 
+<<<<<<< HEAD
             ElevatedButton(
               onPressed: _save,
               child: const Text("Simpan"),
             )
+=======
+            ElevatedButton(onPressed: _save, child: const Text("Simpan")),
+>>>>>>> 8987424fdda1b9758c58286a5ae76dfafaf4133d
           ],
         ),
       ),
